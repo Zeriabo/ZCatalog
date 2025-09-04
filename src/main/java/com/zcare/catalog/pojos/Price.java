@@ -1,4 +1,4 @@
-package com.zwash.catalog.pojos;
+package com.zcare.catalog.pojos;
 
 
 import jakarta.persistence.Embeddable;

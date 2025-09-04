@@ -1,7 +1,9 @@
-package com.zwash.catalog.repository;
+package com.zcare.catalog.repository;
 
-import com.zwash.catalog.pojos.Sku;
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.zcare.catalog.pojos.Sku;
+
 import java.util.List;
 import java.util.UUID;
 

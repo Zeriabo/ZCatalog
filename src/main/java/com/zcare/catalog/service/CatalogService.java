@@ -1,11 +1,11 @@
-package com.zwash.catalog.service;
+package com.zcare.catalog.service;
 
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
-import com.zwash.catalog.dto.CategoryDto;
-import com.zwash.catalog.dto.SkuDto;
+import com.zcare.catalog.dto.CategoryDto;
+import com.zcare.catalog.dto.SkuDto;
 
 public interface CatalogService {
 	  // ---- Category functions ----

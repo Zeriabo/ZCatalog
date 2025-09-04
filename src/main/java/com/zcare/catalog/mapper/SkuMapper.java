@@ -1,8 +1,8 @@
-package com.zwash.catalog.mapper;
+package com.zcare.catalog.mapper;
 
-import com.zwash.catalog.dto.SkuDto;
-import com.zwash.catalog.pojos.Price;
-import com.zwash.catalog.pojos.Sku;
+import com.zcare.catalog.dto.SkuDto;
+import com.zcare.catalog.pojos.Price;
+import com.zcare.catalog.pojos.Sku;
 
 
 public class SkuMapper {

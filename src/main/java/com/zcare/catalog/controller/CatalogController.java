@@ -1,8 +1,8 @@
-package src.main.java.com.zwash.catalog.controller;
+package com.zcare.catalog.controller;
 
-import com.zwash.catalog.dto.CategoryDto;
-import com.zwash.catalog.dto.SkuDto;
-import com.zwash.catalog.service.CatalogService;
+import com.zcare.catalog.dto.CategoryDto;
+import com.zcare.catalog.dto.SkuDto;
+import com.zcare.catalog.service.CatalogService;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

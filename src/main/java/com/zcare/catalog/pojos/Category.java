@@ -1,36 +1,56 @@
-package com.zwash.catalog.dto;
+package com.zcare.catalog.pojos;
 
+
+import jakarta.persistence.*;
 import java.util.UUID;
 
-public class CategoryDto {
+@Entity
+@Table(name = "categories")
+public class Category {
 
+    @Id
+    @GeneratedValue
     private UUID id;
+
+    @Column(nullable = false, unique = true)
     private String name;
+
     private String description;
-    private boolean active;
+
+    @Column(nullable = false)
+    private boolean active = true;
+
 	public UUID getId() {
 		return id;
 	}
+
 	public void setId(UUID id) {
 		this.id = id;
 	}
+
 	public String getName() {
 		return name;
 	}
+
 	public void setName(String name) {
 		this.name = name;
 	}
+
 	public String getDescription() {
 		return description;
 	}
+
 	public void setDescription(String description) {
 		this.description = description;
 	}
+
 	public boolean isActive() {
 		return active;
 	}
+
 	public void setActive(boolean active) {
 		this.active = active;
 	}
+    
     
 }

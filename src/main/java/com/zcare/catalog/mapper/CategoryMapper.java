@@ -1,7 +1,7 @@
-package com.zwash.catalog.mapper;
+package com.zcare.catalog.mapper;
 
-import com.zwash.catalog.dto.CategoryDto;
-import com.zwash.catalog.pojos.Category;
+import com.zcare.catalog.dto.CategoryDto;
+import com.zcare.catalog.pojos.Category;
 
 public class CategoryMapper {
 

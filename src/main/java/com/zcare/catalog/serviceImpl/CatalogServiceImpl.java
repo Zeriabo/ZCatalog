@@ -1,14 +1,14 @@
-package com.zwash.catalog.serviceImpl;
+package com.zcare.catalog.serviceImpl;
 
-import com.zwash.catalog.dto.CategoryDto;
-import com.zwash.catalog.dto.SkuDto;
-import com.zwash.catalog.mapper.CategoryMapper;
-import com.zwash.catalog.mapper.SkuMapper;
-import com.zwash.catalog.pojos.Category;
-import com.zwash.catalog.pojos.Sku;
-import com.zwash.catalog.repository.CategoryRepository;
-import com.zwash.catalog.repository.SkuRepository;
-import com.zwash.catalog.service.CatalogService;
+import com.zcare.catalog.dto.CategoryDto;
+import com.zcare.catalog.dto.SkuDto;
+import com.zcare.catalog.mapper.CategoryMapper;
+import com.zcare.catalog.mapper.SkuMapper;
+import com.zcare.catalog.pojos.Category;
+import com.zcare.catalog.pojos.Sku;
+import com.zcare.catalog.repository.CategoryRepository;
+import com.zcare.catalog.repository.SkuRepository;
+import com.zcare.catalog.service.CatalogService;
 
 import org.springframework.stereotype.Service;
 
